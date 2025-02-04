@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Black Notebook",
+            "image":["/assetes/notebook_black_2.jpg", "/assetes/notebook_black_1.jpg", "/assetes/notebook_black_3.jpg", "/assetes/notebook_black_4.jpg"
+],
+            "price": 800
+        },
+        {
+            "id": 2,
+            "name": "Pink Notebook",
+            "image":["/assetes/notebook_pink_2.jpg", "/assetes/notebook_pink_1.jpg", "/assetes/notebook_pink_3.jpg", "/assetes/notebook_pink_4.jpg"],
+            "price": 800
+        },
+        {
+            "id": 3,
+            "name": "Light Blue Notebook",
+            "image":["/assetes/notebook_lightblue_2.jpg", "/assetes/notebook_lightblue_1.jpg", "/assetes/notebook_lightblue_3.jpg", "/assetes/notebook_lightblue_4.jpg"],
+            "price": 800
+        },
+        {
+            "id": 4,
+            "name": "Just Imagine Notebook",
+            "image":["/assetes/notebook_darkblue_2.jpg", "/assetes/notebook_darkblue_1.jpg", "/assetes/notebook_darkblue_3.jpg", "/assetes/notebook_darkblue_4.jpg"],
+            "price": 800
+        },
+        {
+            "id": 5,
+            "name": "Journal notebook",
+            "image":["/assetes/notebook_green_2.jpg", "/assetes/notebook_green_1.jpg", "/assetes/notebook_green_3.jpg"],
+            "price": 800
+        },
+        {
+            "id": 6,
+            "name": "Palm notebook",
+            "image":["/assetes/notebook_white_2.jpg", "/assetes/notebook_white_1.jpg", "/assetes/notebook_white_3.jpg"],
+            "price": 800
+        }
+    ]
+}

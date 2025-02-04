@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/notebookWeb/static/css/main.1a9da7a6.css",
+    "main.js": "/notebookWeb/static/js/main.39873a1c.js",
+    "static/js/453.17bd2a3d.chunk.js": "/notebookWeb/static/js/453.17bd2a3d.chunk.js",
+    "static/media/hopesTouch.MP4": "/notebookWeb/static/media/hopesTouch.d43ac1527ef3eea30e12.MP4",
+    "static/media/logoWhite.png": "/notebookWeb/static/media/logoWhite.0ef4504de1bd6ac09040.png",
+    "static/media/logo.png": "/notebookWeb/static/media/logo.590bba02d4e01ad74131.png",
+    "static/media/Chillen.ttf": "/notebookWeb/static/media/Chillen.648f5cdfab8d6e810d3f.ttf",
+    "static/media/deliveryTruck.png": "/notebookWeb/static/media/deliveryTruck.3b26ac0de13e34a40e05.png",
+    "static/media/notbookIcon.png": "/notebookWeb/static/media/notbookIcon.4cf242cf084a05de50ae.png",
+    "index.html": "/notebookWeb/index.html",
+    "main.1a9da7a6.css.map": "/notebookWeb/static/css/main.1a9da7a6.css.map",
+    "main.39873a1c.js.map": "/notebookWeb/static/js/main.39873a1c.js.map",
+    "453.17bd2a3d.chunk.js.map": "/notebookWeb/static/js/453.17bd2a3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a9da7a6.css",
+    "static/js/main.39873a1c.js"
+  ]
+}
