@@ -1,0 +1,131 @@
+.contact {
+    width: 100%;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://www.aiseesoft.com/images/resource/white-iphone-wallpaper/25-pattern6.jpg) repeat scroll 0 0 transparent;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.contact .box {
+    width: 90%;
+    height: 90%;
+    background-color: #fff6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact .box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+.contact .box .line{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .box img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.contact a{
+    color: rgb(80, 80, 80);
+}
+
+.contact p{
+    font-size: 1.2rem;
+}
+.contact a{
+    font-size: 1.2rem;
+}
+
+@media (min-width: 475px) {
+    .contact {
+        background-color: #525252;
+        max-width: 475px;
+
+    }
+}
+@media (min-width: 640px) {
+    .contact {
+
+        background-color: #fa3200;
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .contact {
+        background-color: #007bff;
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .contact {
+        background-color: #28a745;
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .contact {
+        background-color: #525252;
+        max-width: 1280px;
+    }
+    .contact .box{
+        width: 50%;
+        height: 80%;
+    }
+}
+@media (min-width: 1536px) {
+    .contact {
+        background-color: #17a2b8;
+        max-width: 1536px;
+    }
+}

@@ -1,0 +1,184 @@
+.home {
+    min-width: 100%;
+    background-color: #fff;
+    /* height: 100vh; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(https://www.aiseesoft.com/images/resource/white-iphone-wallpaper/25-pattern6.jpg) repeat scroll 0 0 transparent;
+}
+.home .page1{
+    width: 100%;
+    height: 95vh;
+    /* background-color: #26be18; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.home .page1 .vidbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    /* background-color: #f10000; */
+    /* border-radius: 10px; */
+    animation: slideIn 0.5s ease-in-out;
+
+}
+
+.home .page1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* filter: contrast(0.4); */
+    /* border-radius: 10px; */
+}
+
+.home .page1 .vidbox .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border-radius: 10px; */
+}
+
+.home .page1 button{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.home .page1 button:hover{
+    background-color: white;
+    color: black;
+    transition: all  0.5s;
+}
+
+.home .page1 .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.home .page2{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #26be18; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home .page2 .info{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    background-color: #fff6f6;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 0.75rem rgba(0, 0, 0, 0.5));
+    padding: 10px 20px;
+}
+
+.home .page2 .info img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.home .page2 .info p{
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.home .page2 .info h2{
+    /* font-size: 1.1rem; */
+    /* margin: 0.5rem; */
+    text-align: center;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.view{
+    animation: appear linear ;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@media (min-width: 475px) {
+    .home {
+        /* background-color: #664242; */
+        max-width: 475px;
+
+    }
+}
+@media (min-width: 640px) {
+    .home {
+
+        background-color: #fa3200;
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .home {
+        background-color: #007bff;
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .home {
+        background-color: #28a745;
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .home {
+        background-color: #ffc107;
+        max-width: 1280px;
+    }
+    .home .page2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .home .page2 .info {
+        width: 30%;
+    }
+}
+@media (min-width: 1536px) {
+    .home {
+        background-color: #17a2b8;
+        max-width: 1536px;
+    }
+}

@@ -1,0 +1,110 @@
+@font-face {
+    font-family: hopes;
+    src: url(../fonts/chillen/Chillen.ttf);
+}
+
+.nav {
+    min-width: 100%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav h2{
+    font-family: hopes;
+    font-size: 2rem;
+    color: #000000;
+    width: 50%;
+    /* background-color: #883838; */
+}
+
+.nav ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    /* background-color: #9c2424; */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav a:hover
+{
+    color: rgb(201, 201, 201);
+    transition : all 0.3s ease;
+}
+
+.nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 475px) {
+    .nav {
+        background-color: #ffffff;
+        max-width: 475px;
+
+    }
+}
+@media (min-width: 640px) {
+    .nav {
+
+        background-color: #fa3200;
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .nav {
+        background-color: #007bff;
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .nav {
+        background-color: #28a745;
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .nav {
+        background-color: #ffffff;
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .nav {
+        background-color: #17a2b8;
+        max-width: 1536px;
+    }
+}

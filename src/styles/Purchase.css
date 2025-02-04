@@ -1,0 +1,173 @@
+.purchase {
+    min-width: 100%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://www.aiseesoft.com/images/resource/white-iphone-wallpaper/25-pattern6.jpg) repeat scroll 0 0 transparent;
+}
+
+.purchase .back{
+    padding: 0px 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-right: 300px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.purchase .back img{
+    width: 30px;
+    height: 30px;
+    /* margin-right: 10px; */
+}
+
+.purchase .back:hover{
+    background-color: #414141;
+}
+
+
+.purchase .product{
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(20px 20px 0.75rem rgba(0, 0, 0, 0.5));
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.purchase .product img {
+    border-radius: 10px;
+}
+
+.purchase form{
+    width: 80%;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(20px 20px 0.75rem rgba(0, 0, 0, 0.5));
+    margin-bottom: 50px;
+    filter: drop-shadow(20px 20px 0.75rem rgba(0, 0, 0, 0.5));
+    margin-bottom: 50px;
+}
+
+.purchase form h1{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.purchase form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.purchase form input,
+.purchase form select,
+.purchase form textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.purchase form button{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: none;
+    background-color: #000000;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.purchase form button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media (min-width: 475px) {
+    .purchase {
+        /* background-color: #664242; */
+        max-width: 475px;
+
+    }
+}
+@media (min-width: 640px) {
+    .purchase {
+
+        background-color: #fa3200;
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .purchase {
+        background-color: #007bff;
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .purchase {
+        background-color: #28a745;
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .purchase {
+        background-color: #ffc107;
+        max-width: 1280px;
+    }
+    .purchase{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .purchase .product{
+        width: 38%;
+        height: 550px;
+        padding: 20px 40px
+    }
+
+    .purchase .product img{
+        width: 70%;
+        height: 80%;
+    }
+    .purchase form{
+        width: 30%;
+        height: 550px;
+        margin-top: 30px;
+    }
+    .purchase .back{
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+}
+@media (min-width: 1536px) {
+    .purchase {
+        background-color: #17a2b8;
+        max-width: 1536px;
+    }
+}

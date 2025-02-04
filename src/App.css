@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.App{
+  background-color: #f5f5f5;
+  background: url(https://www.aiseesoft.com/images/resource/white-iphone-wallpaper/25-pattern6.jpg) repeat scroll 0 0 transparent;
+  width: 100%;
+  min-height: 100vh;
+
+}
